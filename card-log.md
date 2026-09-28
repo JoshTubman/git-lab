@@ -18,3 +18,9 @@ the staging area and overwrites the working directory.
 
 Cargo build failed and the false commit was sent to GitHub. "git revert HEAD" helped undo the 
 original commit and creates a new one, incase for any teammates who already pulled.
+
+##Card 5
+
+Both commits were missing from "git log --oneline" and "scratch.txt". 
+"git reset --hard..." It resets back to when both of the commits were added before the "HEAD~2"
+reset.
