@@ -14,3 +14,7 @@ to the targeted commit, but leaves both in the staging area and the working dire
 moves the branch pointer back and resets the staging area. -hard moves the branch pointer, resets
 the staging area and overwrites the working directory.
 
+##Card 4
+
+Cargo build failed and the false commit was sent to GitHub. "git revert HEAD" helped undo the 
+original commit and creates a new one, incase for any teammates who already pulled.
