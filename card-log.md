@@ -19,3 +19,7 @@ pointer, resets the staging area, and overwrites the working directory to match 
 ## Card 4
 Cargo build fails and the broken commit is now on GitHub -> "git revert HEAD" -> creates a new
 commit that undoes an old one so that it is safe for those who may already have pulled it.
+
+## Card 5
+Both commits were missing "git log --oneline" and "scratch.txt is gone -> "git reset --hard..." ->
+It resets back to when both of the commits were added and before the reset of "HEAD~2".
